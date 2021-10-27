@@ -73,6 +73,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+// Hello Api
 app.get('/hello', (req, res) => {
   res.send('Hello Api')
 })
